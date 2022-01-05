@@ -4,10 +4,10 @@ OSSDAO.org
 
 ## 🛠️ Installation
 
-Clone and fork the repository to make the changes in your local system.
+**Clone and fork** the repository to make the changes in your local system.
 
 ```git-bash
-git clone https://github.com/fadhiilrachman/ossdao
+git clone https://github.com/YOUR-USERNAME/ossdao
 cd ossdao
 ```
 
