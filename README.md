@@ -14,7 +14,7 @@ cd ossdao
 Now, this command creates a directory named *node_modules* and installs all the required packages in it.
 
 ```javascript
-npm install
+npm i -vvv
 ```
 
 ## Configuration
