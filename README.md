@@ -4,14 +4,14 @@ OSSDAO.org
 
 ## 🛠️ Installation
 
-Clone and fork the repository to make the changes in your local system
+Clone and fork the repository to make the changes in your local system.
 
 ```git-bash
 git clone https://github.com/fadhiilrachman/ossdao
 cd ossdao
 ```
 
-Now this command creates a directory named node_modules and installs all the required packages in it.
+Now, this command creates a directory named *node_modules* and installs all the required packages in it.
 
 ```javascript
 npm install
@@ -19,7 +19,13 @@ npm install
 
 ## Configuration
 
-Please rename `.env_template` into `.env`, then set your own **Git credentials** bellow:
+Please copy `.env_template` into `.env`
+
+```shell
+cp .env_template .env
+```
+
+Then set your own **Git credentials** bellow:
 
 ```shell
 GIT_NAME=""         # Your name
