@@ -15,7 +15,7 @@ let doneCommitAmount = 0
 
 const makeCommit = async (git, n) => {
     if (n === 0) {
-        return 
+        return git.push()
     }
     const x = random.int(0, 54)
     const y = random.int(0, 6)
